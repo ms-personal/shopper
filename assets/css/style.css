@@ -1,0 +1,123 @@
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Arial;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	padding: 30px;
+	background: #eee;
+}
+
+section {
+	padding: 30px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.row {
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	box-sizing: border-box;
+}
+
+.w15 {
+	width: 15%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w80 {
+	width: 80%;
+}
+
+.w85 {
+	width: 85%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.form-input {
+	display: table;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form-input label {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+	vertical-align: middle;
+	line-height: 29px;
+	display: block;
+}
+
+.form-input input {
+	width: 100%;
+	display: block;
+	padding: 5px 15px;
+	box-sizing: border-box;
+}
+
+.form-input button {
+	float: right;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	border: 0;
+	font-weight: 600;
+	color: #fff;
+	background: green;
+}
+
+.title {
+	margin: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+	width: 100%;
+	display: table;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 4px 8px;
+	border-bottom: solid 1px #ccc;
+}
+
+th:last-child {
+	text-align: center;
+}
+
+td:last-child {
+	text-align: right;
+}
